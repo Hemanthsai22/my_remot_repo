@@ -1,5 +1,7 @@
 a = 0
-n = int(input('Enter a any number'))
+print('*'*50)
+n = int(input('Enter a with we want check prime or not:'))
+print('*'*50)
 for i in range(1,n+1):
 	if(n%i==0):
 		a = a+1
